@@ -4,6 +4,13 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
     
     <script defer src="js/bootstrap.bundle.min.js"></script>
 </head>
@@ -30,9 +37,13 @@
                         <br>
                         I'm Kaila.
                     </h1>
-                    <h3 id="tagline" class="dark-bg-sub">Health Communicator</h3>
-                    <p class="dark-bg-text">
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+                    <div class="section-sub taglines">
+                        <h3 class="dark-bg-sub tagline-spacing">Professional and Technical Writer.</h3>
+                        <h3 class="dark-bg-sub tagline-spacing">Amateur Web Developer.</h3>
+                        <h3 class="dark-bg-sub tagline-spacing">New Yorker.</h3>
+                    </div>
+                    <p class="text dark-bg-text">
+                        Welcome to my website! As a future health communicator, I wish to combine my love for technology and storytelling to make a difference. Thanks for taking the time to visit my site, and I hope to see you again soon!
                     </p>
                 </div>
                 <div class="col right-intro">
@@ -46,22 +57,21 @@
 
     <section class="education section-spacing">
         <div class="container">
-            <h1 class="light-bg-title">Education and Background</h1>
-            <h3 class="light-bg-sub">(The short story)</h3>
-            <p class="light-bg-text">In 2021, I returned to the Borough of Manhattan Community College to complete my associate degree in health information technology. As I learned the inner workings of our healthcare system and handled patient records myself, I felt a strong sense of urgency. I began to focus less on how my education was a means to an end, and more on how it could enable me to engage with health equity on a deeper level. This desire led me to the New York City College of Technology, where I currently study professional and technical writing.
+            <h1 class="section-title light-bg-title">Education and Background</h1>
+            <p class="text text-spacing light-bg-text">In 2021, I returned to the Borough of Manhattan Community College to complete my associate degree in health information technology. As I learned the inner workings of our healthcare system and handled patient records myself, I felt a strong sense of urgency. I began to focus less on how my education was a means to an end, and more on how it could enable me to engage with health equity on a deeper level. This desire led me to the New York City College of Technology, where I currently study professional and technical writing.
             <br>
             <br>
-            "If you'd like to read more about my journey and personal experiences related to my career goals, click below!"
+            If you're interested in reading more about my journey and personal experiences related to my career goals, click below!
             </p>
             <br>
-            <button type="button" class="light-bg-btn" onclick="location.href = 'nav/about-me.html'">The long story</button>
+            <button type="button" class="light-bg-btn" onclick="location.href = 'nav/about-me.html'">About me</button>
         </div>
     </section>
 
     <section class="project-spotlight section-spacing">
         <div class="container project-intro">
-            <h1 class="dark-bg-title">Project Spotlight</h1>
-            <h1 class="dark-bg-sub">Health communication projects</h1>
+            <h1 class="section-title dark-bg-title">Project Spotlight</h1>
+            <p class="text text-spacing dark-bg-text">Here are some of my favorite projects that I have worked on. From educational materials to data visualization, I am constantly pushing myself to use new tools, formats, and programs to create work that I am not only proud of, but excited about.</p>
         </div>
         <div class="container grid-container">
             <div class="row">
@@ -69,8 +79,8 @@
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="pictures/PHR.png" alt="Card image cap">
                         <div class="card-body">
-                          <p class="card-text">Presentation and brochure designed in Canva</p>
-                          <button type="button" class="card-btn light-bg-btn" onclick="location.href = 'nav/portfolio.html'">Portfolio</button>
+                          <p class="text card-text">Presentation and brochure designed in Canva</p>
+                          <button type="button" class="card-btn light-bg-btn" onclick="location.href = 'nav/portfolio.html'">Check it out</button>
                         </div>
                     </div>
                 </div>
@@ -78,8 +88,8 @@
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="pictures/PHR.png" alt="Card image cap">
                         <div class="card-body">
-                          <p class="card-text">Wonderful data visualization project that I will get around to uploading</p>
-                          <button type="button" class="card-btn light-bg-btn" onclick="location.href = 'nav/portfolio.html'">Portfolio</button>
+                          <p class="text card-text">Wonderful data visualization project that I will get around to uploading</p>
+                          <button type="button" class="card-btn light-bg-btn" onclick="location.href = 'nav/portfolio.html'">Check it out</button>
                         </div>
                     </div>
                 </div>
@@ -87,15 +97,15 @@
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="pictures/PHR.png" alt="Card image cap">
                         <div class="card-body">
-                          <p class="card-text">One pager that I have definitely made already</p>
-                          <button type="button" class="card-btn light-bg-btn" onclick="location.href = 'nav/portfolio.html'">Portfolio</button>
+                          <p class="text card-text">One pager that I have definitely made already</p>
+                          <button type="button" class="card-btn light-bg-btn" onclick="location.href = 'nav/portfolio.html'">Check it out</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container spotlight-text">
-            <p class="dark-bg-text">If you'd like to see more general portfolio pieces, click the button below.</p>
+            <p class="text dark-bg-text">To see more general portfolio pieces,</p>
             <br>
             </p>
             <button type="button" class="dark-bg-btn" onclick="location.href = 'nav/portfolio.html'">Portfolio</button>
