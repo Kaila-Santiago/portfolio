@@ -140,14 +140,14 @@ img {
     font-weight: bold;
     letter-spacing: 2px;
 
-    margin-top: 150px;
+    margin-top: 130px;
     margin-bottom: 10px;
 
     padding-top: 50px;
 }
 .taglines {
     line-height: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .tagline-spacing {
     margin-top: 5px;
@@ -160,6 +160,7 @@ img {
     display: inline-block;
     overflow-clip-margin: content-box;
     overflow: clip;
+    margin-top: 30px;
     margin-left: 40px;
 }
 .photo {
@@ -167,7 +168,8 @@ img {
     position: relative;
     display: inline-block;
     overflow: clip;
-    height: 625px;
+    height: 700px;
+    width: calc(10vw + 475px);
 }
 
 .light-bg-section {
@@ -257,4 +259,8 @@ img {
 .text-container {
     padding-top: 25px;
     padding-bottom: 0px;
+}
+
+.pdf-spacing {
+    margin-top: 20px;
 }
